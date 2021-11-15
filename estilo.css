@@ -1,0 +1,314 @@
+/*
+ * Folha de estilo para Projeto Modelo de Site Pessoal
+ */
+
+ /*CSS Reset*/
+
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+     font-family: Verdana;
+     font-size: 12px;
+ }
+
+ h1{
+     color:rgb(248, 232, 7);
+     font-size: 34px;
+     text-align: left;
+     padding-top: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     letter-spacing: 2px;
+     padding-left: 20px;
+ }
+
+ h2{
+    color:rgb(248, 232, 7);
+     font-size: 30px;
+     text-align: left;
+     padding-top: 7px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     letter-spacing: 2px; 
+     padding-left: 20px;  
+     margin-top: 15px;
+ }
+
+ h3{
+    color:rgb(248, 232, 7);
+    font-size: 28px;
+    text-align: left;
+    padding-top: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px; 
+    padding-left: 20px;
+ }
+ 
+ h4{
+    color:rgb(248, 232, 7);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;  
+ }
+
+ h5{
+    color: #FFF;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px; 
+    margin-left: 10px;
+ }
+ 
+ p{
+    color: #FFF;
+    font-size: 19px;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px; 
+ }
+
+ a{
+    color: #fff;
+    font-size: 24px;
+    padding-top: 10px;
+    float: left;
+    padding-left: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;  
+    text-decoration: none;
+     
+ }
+
+ #informações{
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 2px;
+    color: #fff;
+ }
+
+ 
+ 
+ 
+ #topo{
+     background-color: rgb(47, 46, 48);
+     width: 1100px;
+     height: 210px;
+ }
+
+ #topo p{
+     text-align: center;
+     font-style: italic;
+     font-size: 18px;
+ }
+
+ #menu{
+     background-color: rgb(32, 29, 29);
+     width: 1100px;
+     height: 50px;
+ }
+ 
+ #menu ul{
+     text-transform: uppercase;
+     list-style-type: none;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     letter-spacing: 2px;
+ }
+
+ #menu ul li{
+     float: left;
+ }  
+
+ #menu ul li a{
+     font-size: 25px;
+     width: 213px;
+     height: 40px;
+     display: block;
+     text-align: center;
+     color: rgb(248, 232, 7);
+     text-decoration: none;
+ }
+
+ #menu ul li a:hover{
+    color: rgb(32, 29, 29);
+    background-color: rgb(248, 232, 7);
+
+}
+
+#destaques{
+    background-color: rgb(17, 17, 17);
+    width: 980px;
+    height: 330px;
+    padding-top: 5px;
+    padding: auto;
+}
+
+#fotohome{
+    padding: auto;
+    height: 350px;
+    padding-left: 40px;
+
+}
+
+#passatempos{
+    background-color: rgb(17, 17, 17);
+    width: 1100px;
+    padding-top: 5px;
+    padding: auto;
+}
+
+#faculdades{
+    background-color: rgb(17, 17, 17);
+    width: 1100px;
+    padding-top: 30px;
+    padding: auto;
+}
+
+.foto{
+    padding: 7px;
+    margin: auto;
+    border: 3px solid rgb(248, 232, 7);
+    width: 300px;
+    height: 310px;
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.fplano{
+    padding: 7px;
+    margin: auto;
+    border: 3px solid rgb(248, 232, 7);
+    width: 300px;
+    height: 260px;
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.fplano2{
+    padding: 7px;
+    margin: auto;
+    border: 3px solid rgb(248, 232, 7);
+    width: 300px;
+    height: 260px;
+    float: right;
+    margin: 10px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.fotoalbuns{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px; 
+    border-radius: 15%;
+    margin-top: 12px;
+}
+
+.fcontato{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px; 
+    border-radius: 15%;
+    margin-top: 12px;
+    margin-left: 300px;
+}
+
+.hplanos{
+    color: #FFF;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px; 
+    margin-left: 10px;
+    line-height: 30px;    
+}
+
+#fotoalbuns{
+    width: 80px;
+    float: left;
+    padding-left: 30px;
+}
+
+#linkalbuns{
+    padding-left: 20px;
+}
+
+#linkcontato{
+    padding-left: 400px;     
+}
+
+#bio{
+    background-color: rgb(17, 17, 17);
+    width: 980px;
+}
+
+#bio p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 7px;
+    color: #fff;
+}
+
+#rodape{
+    background-color: rgb(0, 0, 0);
+    width: 1100px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+#rodape p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    text-decoration: bold;
+    color: #FFF;
+}
+
+#tudo{
+    width: 1100px;
+    margin: auto;
+    background-color: rgb(17, 17, 17);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
